@@ -1,3 +1,5 @@
+//Copyrights Harsh Thaker
+
 import os
 from shutil import copyfile
 import argparse
