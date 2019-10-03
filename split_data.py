@@ -9,7 +9,7 @@ parser.add_argument("output")
 #parser.add_argument("val_size")
 args=parser.parse_args()
 
-
+#define the function
 def gen_sample_data(input_dir,output_dir):
     
     #storing names of directories-these are class names
