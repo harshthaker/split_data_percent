@@ -1,5 +1,5 @@
 //Copyrights Harsh Thaker
-
+//programming like pro
 import os
 from shutil import copyfile
 import argparse
@@ -50,7 +50,7 @@ def gen_sample_data(input_dir,output_dir):
             copyfile(file_names[k], os.path.join(output_dir,"test",dir_name,os.path.basename(file_names[k])))
             print(os.path.join(output_dir,"test",dir_name+os.path.basename(file_names[k])))
 
-
+#function call
 gen_sample_data(args.input,args.output)
         
     
