@@ -1,5 +1,5 @@
 //Copyrights Harsh Thaker
-
+//Function to split the data percentage wise
 import os
 from shutil import copyfile
 import argparse
